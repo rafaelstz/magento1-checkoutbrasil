@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rafaelcg_ValidaCPF>
+            <version>1.0.0</version>
+        </Rafaelcg_ValidaCPF>
+    </modules>
+    <global>
+        <blocks>
+            <customer>
+                <rewrite>
+                    <widget_taxvat>Rafaelcg_ValidaCPF_Block_Customer_Widget_Taxvat</widget_taxvat>
+                </rewrite>
+            </customer>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <rafaelcg_validacpf module="Rafaelcg_ValidaCPF">
+                    <file>rafaelcg/validacpf.xml</file>
+                </rafaelcg_validacpf>
+            </updates>
+        </layout>
+    </frontend>
+</config>
